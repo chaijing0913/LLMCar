@@ -3,7 +3,7 @@ from openai import OpenAI
 class CarController:
     def __init__(self):
         self.client = OpenAI(
-            api_key="sk-a77d4065756a4c5da8b94281a63c26d0",
+            api_key="",
             base_url="https://api.deepseek.com"
         )
         self.ui = None  # 将被MainWindow实例填充
